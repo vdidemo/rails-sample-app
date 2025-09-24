@@ -6,7 +6,7 @@ SendgridRailsSampleApp::Application.initialize!
 
 # overwrite ActionMailer settings to send through SendGrid servers
 ActionMailer::Base.smtp_settings = {
-  :address        => 'smtp.sendgrid.net',
+  :address        => 'zsmtp.eranyacloud.com',
   :port           => '587',
   :authentication => :plain,
   :user_name      => '<sendgrid_username>',
