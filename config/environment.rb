@@ -9,8 +9,8 @@ ActionMailer::Base.smtp_settings = {
   :address        => 'zsmtp.eranyacloud.com',
   :port           => '587',
   :authentication => :plain,
-  :user_name      => '<sendgrid_username>',
-  :password       => '<sendgrid_password>',
-  :domain         => 'example.com',
+  :user_name      => 'sampleuser@existing.com',
+  :password       => 'existingpassword',
+  :domain         => 'existing.com',
   :enable_starttls_auto => true
 }
